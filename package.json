@@ -1,0 +1,20 @@
+{
+  "name": "discord-ticket-bot",
+  "version": "0.0.1",
+  "description": "Simple tickets management discord bot.",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist"
+  },
+  "author": "m-imperfect <owner@m-imperfect.net>",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.2"
+  }
+}
